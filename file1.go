@@ -11,7 +11,7 @@ func main() {
 	variables()
 	constants()
 	forloops()
-	do_vals()
+	dovals()
 }
 
 func values() {
@@ -88,7 +88,7 @@ func vals() (int, int) {
 	return 3, 7
 }
 
-func do_vals() {
+func dovals() {
 
 	a, b := vals()
 	fmt.Println(a)
